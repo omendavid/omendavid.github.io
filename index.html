@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body class="body">
+    
+   
     <div class="container">
         <div id="me_cover" > 
             <img src="https://images.unsplash.com/photo-1601887389937-0b02c26b602c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWljaGVsYW5nZWxvJTIwZGF2aWR8ZW58MHx8MHx8&w=1000&q=80" alt=""> 
@@ -33,5 +35,19 @@
             </div>
         </div>
     </div>
+    <script src="https://rawcdn.githack.com/karolsw3/gradientify/7f5a74cd8380a843477b7abfa9baca2fd127013a/dist/gradientify.min.js"></script>
+    <script>
+        let gradientify = new Gradientify(
+        '.body',
+          [
+            "linear-gradient(90deg, rgba(32,32,32,1) 0%, rgba(54,1,63,1) 49%, rgba(88,0,99,1) 100%))", // Array of CSS gradients
+            "linear-gradient(45deg, rgba(54,1,63,1) 0%, rgba(88,0,99,1) 49%, rgba(54,1,63,1) 100%)",
+            "linear-gradient(0deg, rgba(88,0,99,1), rgba(54,1,63,1) )"
+          ],
+          5000 // Fading interval in miliseconds
+        )
+    </script>
+
+    
 </body>
 </html>
