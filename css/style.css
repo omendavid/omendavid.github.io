@@ -11,7 +11,8 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-
+    /* background-image: url('https://4kwallpapers.com/images/wallpapers/ipados-14-ipad-air-2020-pink-light-stock-aesthetic-4480x2520-2917.jpg');
+    background-size: cover; */
   font-family: 'Poppins', sans-serif;
   background-color: rgb(34, 34, 34)
 }
@@ -23,8 +24,8 @@ body {
   overflow: auto;
   min-height: 300px;
   /* border: 1px solid rgb(111, 111, 111); */
-  background-color: rgba(193, 186, 203, 0.331);
-  backdrop-filter: blur(10px);
+  background-color: rgba(199, 179, 225, 0.148);
+  backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(10px) !important;
   padding: 30px;
   border-radius: 5px;
@@ -107,7 +108,7 @@ body {
 #me_info p {
     font-size: 18px;
     margin-bottom: 8px;
-    color: rgb(33, 33, 33);
+    color: rgb(14, 14, 14);
     line-height: 30px;
 }
 
@@ -124,7 +125,7 @@ body {
 }
 
 #me_info h3 {
-    color:rgb(33, 33, 33);
+    color:rgb(22, 22, 22);
     text-transform: capitalize;
     margin-top: 20px;
     margin-bottom: 10px;
